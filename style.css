@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+}
+
+/* header */
+
+header {
+    height: 100vh;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#logo {
+    font-size: 40px;
+    padding: 0 40px;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+    padding-right: 30px;
+
+}
+
+.navi {
+    justify-content: space-between;
+}
+
+.navi a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#main-header {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+
+/* /header */
+
+/* main */
+
+/* welcome-section */
+
+#welcome-section {
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: center; */
+    text-align: center;
+}
+
+#welcome-section h2 {
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+#welcome-section p {
+    padding: 100px 400px;
+}
+
+/* /welcomesection */
+
+/* whatwedosection */
+
+#whatwedo-section h2 {
+    text-align: center;
+    font-size: 60px;
+    padding: 100px 0 20px;
+}
+
+.optionlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 100px;
+}
+
+.optionlist div {
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.optionlist img {
+    width: 250px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* /whatwedosection */
+
+/* statisticssection */
+
+#statistics-section {
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+#statistics-section h2 {
+    padding: 100px;
+    text-align: center;
+    font-size: 50px;
+}    
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.quantity {
+    font-size: 100px;
+}
+
+.spec {
+    font-size: 20px;
+}
+
+/* /statisticssection */
+
+/* servicesection */
+
+#service-section {
+    text-align: center;
+    margin: 100px;
+}
+
+#left {
+    width: 30%;
+    float: left;
+    padding-right: 50px;
+}
+
+#left h2 {
+    font-size: 50px;
+}
+
+#right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    float: right;
+}
+
+#right .option {
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    margin: 10px;
+    background: #fff;
+    box-shadow: 10px 10px 10px 0 rgba(0, 5, 22, 0.1);
+}
+
+/* /servicesection */
