@@ -75,7 +75,7 @@ h2 {
   display: flex;
 }
 
-.dropdown-content a:hover {
+.navbar--item:hover ,.dropdown-content a:hover {
   background-color: white;
   color: black;
 }
